@@ -1,0 +1,13 @@
+2021-06-15 12:48:15,357 INFO werkzeug MainThread :  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-15 12:49:39,226 INFO app Thread-1 : Processing default request
+2021-06-15 12:49:39,226 INFO werkzeug Thread-1 : 127.0.0.1 - - [15/Jun/2021 12:49:39] "[37mGET /metrics HTTP/1.1[0m" 200 -
+2021-06-15 12:52:07,632,  * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2021-06-15 12:52:22,156, Processing default request
+2021-06-15 12:52:22,157, 127.0.0.1 - - [15/Jun/2021 12:52:22] "[37mGET /status HTTP/1.1[0m" 200 -
+2021-06-15 12:52:29,055, Processing default request
+2021-06-15 12:52:29,055, 127.0.0.1 - - [15/Jun/2021 12:52:29] "[37mGET /metrics HTTP/1.1[0m" 200 -
+2021-06-16 17:00:27,583, Processing default request
+2021-06-16 17:00:27,589, 127.0.0.1 - - [16/Jun/2021 17:00:27] "[37mGET / HTTP/1.1[0m" 200 -
+2021-06-16 17:00:27,917, 127.0.0.1 - - [16/Jun/2021 17:00:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-06-16 17:00:40,240, Processing default request
+2021-06-16 17:00:40,241, 127.0.0.1 - - [16/Jun/2021 17:00:40] "[37mGET /metrics HTTP/1.1[0m" 200 -
