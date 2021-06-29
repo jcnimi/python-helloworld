@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
     - name: secrets 
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
         DOCKER_PWD: ${{ secrets.DOCKER_PWD }}
-    - uses: actions/checkout@v2
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag python-helloworld
     - name: tag the image
